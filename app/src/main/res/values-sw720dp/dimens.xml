@@ -4,9 +4,9 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="text_xlarge">34sp</dimen>
-    <dimen name="text_large">22sp</dimen>
-    <dimen name="text_xmedium">19sp</dimen>
-    <dimen name="text_medium">15sp</dimen>
+    <dimen name="text_large">26sp</dimen>
+    <dimen name="text_xmedium">20sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
     <dimen name="text_small">14sp</dimen>
     <dimen name="text_vsmall">11sp</dimen>
 
@@ -15,6 +15,6 @@
     <dimen name="space_xsmall">10dp</dimen>
     <dimen name="space_small">7dp</dimen>
 
-    <dimen name="image_size_big">180dp</dimen>
-    <dimen name="image_size_small">70dp</dimen>
+    <dimen name="image_size_big">220dp</dimen>
+    <dimen name="image_size_small">90dp</dimen>
 </resources>

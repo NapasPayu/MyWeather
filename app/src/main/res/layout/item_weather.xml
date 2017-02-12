@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/iv_condition"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_width="@dimen/image_size_small"
+        android:layout_height="@dimen/image_size_small"
         android:adjustViewBounds="true"
         android:tint="@color/white"
         tools:src="@drawable/sun" />
