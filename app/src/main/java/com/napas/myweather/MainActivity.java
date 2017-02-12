@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.ll_main_weather)
     LinearLayout llMainWeather;
 
-    private static long PERIODIC_TASK_INTERVAL = 3000000; // millisecond
+    private static long PERIODIC_TASK_INTERVAL = 600000; // millisecond
     private WeatherListAdapter mWeatherListAdapter;
     private Subscription mGetWeatherAllLocations;
     private List<DbObjWeather> mWeathers;
