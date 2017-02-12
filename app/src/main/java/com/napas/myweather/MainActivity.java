@@ -103,12 +103,11 @@ public class MainActivity extends AppCompatActivity {
             mWeathers = DbObjWeather.listAll(DbObjWeather.class);
             if (mWeathers.size() == 0) {
                 startSelectLocationActivity();
-            } else {
-                updateView();
             }
         } catch (Exception e) {  // table not found
             startSelectLocationActivity();
         }
+        updateView();
     }
 
     private void updateView() {
@@ -260,6 +259,8 @@ public class MainActivity extends AppCompatActivity {
                         showProgress(false);
                     }
                 });
+
+
     }
 
     private Observable<DbObjWeather> getWeatherObservable(@NonNull final String locationName, @NonNull final String location) {
