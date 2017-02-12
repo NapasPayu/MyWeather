@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_title_remove">Remove Country?</string>
+    <string name="loading">Loading...</string>
+    <string name="ten_day_forecast">10 day forecast</string>
+    <string name="date">Date</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="condition">Condition</string>
+</resources>
